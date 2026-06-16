@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin-top: 50px;
+    color: purple;
+}
+
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: green;
+}
+
+form {
+    background:linear-gradient(45deg,red,black,transparent);
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: yellow;
+}

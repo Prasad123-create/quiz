@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz</title>
+     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<h1>Online Quiz</h1>
+
+<form action="/result" method="POST">
+
+    <h3>1. What is Python?</h3>
+    <input type="radio" name="q1" value="a"> Snake<br>
+    <input type="radio" name="q1" value="b"> Programming Language<br>
+    <input type="radio" name="q1" value="c"> Game<br><br>
+
+    <h3>2. What does HTML stand for?</h3>
+    <input type="radio" name="q2" value="a"> Hyper Text Markup Language<br>
+    <input type="radio" name="q2" value="b"> High Text Machine Language<br>
+    <input type="radio" name="q2" value="c"> Home Tool Markup Language<br><br>
+
+    <h3>3. CSS is used for?</h3>
+    <input type="radio" name="q3" value="a"> Styling Web Pages<br>
+    <input type="radio" name="q3" value="b"> Database<br>
+    <input type="radio" name="q3" value="c"> Operating System<br><br>
+
+    <button type="submit">Submit Quiz</button>
+
+</form>
+
+</body>
+</html>
